@@ -1,0 +1,22 @@
+-- 2025-03-23 --
+-- 2025-03-23 --
+-- SU5TVElUVVRPIFBFUlVBTk8gREUgUEFURVJOSURBRCBSRVNQT05TQUJMRQ== --
+-- 20154935267 --
+-- AV. GIUSEPPE GARIBALDI NRO. 125 RES. SAN FELIPE LIMA LIMA JESUS MARIA --
+-- 0 --
+-- '0' --
+-- 'No enviado' --
+-- 'Libro si' --
+-- Leyner Adan Abad Esquen --
+-- opGravada --
+-- 3148.750 --
+-- 0.00 --
+-- '0.00' --
+-- 566.77 --
+-- 3715.53 --
+-- Pendiente --
+-- 0.00 --
+-- 0.00 --
+--  --
+-- 01 --
+-- [{"codigo_x_tipo_item":"P1","codigo":"HERLU 507","nombre_producto":"LLANTAS DE REHUSO  Unidades","precio_venta":"348.750","stock":"2","stock_resultante":"1","cantidadItem":"1","total_cobrar":"348.750"},{"codigo_x_tipo_item":"S41","codigo":"SERVICIO 41","nombre_producto":"SERVICIO DE MOVILIZACION DE ESCOLTA","precio_venta":"2800.000","stock":"DesService","stock_resultante":"stock_resultante","cantidadItem":"1","total_cobrar":"2800.000"}] --

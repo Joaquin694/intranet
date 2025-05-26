@@ -1,0 +1,164 @@
+<div class="content-wrapper">
+    <section class="content">
+            <div class="row">
+                    <div class="col-lg-12 col-xs-12">
+                            <div class="box box-success">
+                                    <div class="box-header with-border">COTIZACIÓN</div>
+                                    <form role="form" metohd="post">
+                                            <div class="box-body">
+                                                    <div class="box">
+                                                    <div class="col-lg-12 col-xs-12"><br></div>
+                                                            <form>  
+                                                                    <div class="col-lg-6 col-xs-12">  
+                                                                            <fieldset class="bordered">
+                                                                            <legend>&nbsp;INFORMACIÓN GENERAL</legend> 
+                                                                                    <div class="col-lg-8 col-xs-12">    
+                                                                                            <div class="form-group">
+                                                                                                <input type="text" class="form-control" id="cot_cliente" aria-describedby="emailHelp" placeholder="Cliente">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-4 col-xs-12">    
+                                                                                             <div class="form-group">
+                                                                                                    <select class="form-control" required>
+                                                                                                        <option disabled selected="selected">Tipo documento de identidad</option>
+                                                                                                        <option>CARNET DE EXTRANJERIA</option>
+                                                                                                        <option>REG. UNICO DE CONTRIBUYENTES</option>
+                                                                                                        <option>DOCUMENTO NACIONAL DE IDENTIDAD</option>
+                                                                                                    </select>
+                                                                                            </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-8 col-xs-12">    
+                                                                                            <div class="form-group">
+                                                                                                <input type="text" class="form-control" id="cot_cliente" aria-describedby="emailHelp" placeholder="Contacto">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-4 col-xs-12">    
+                                                                                            <div class="form-group">
+                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Número de documento de identidad">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-8 col-xs-12">    
+                                                                                            <div class="form-group">
+                                                                                                <input type="text" class="form-control" id="cot_cliente" aria-describedby="emailHelp" placeholder="Dirección">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-4 col-xs-12">    
+                                                                                            <div class="form-group">
+                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Celular">
+                                                                                            </div>
+                                                                                    </div>
+                                                                            </fieldset>
+                                                                    </div>                                                                        
+                                                                    <!-- --------------------------------------------------------------------------------------------------- -->
+                                                                    <div class="col-lg-6 col-xs-12">  
+                                                                            <fieldset class="bordered">
+                                                                            <legend>&nbsp;ACUERDO COMERCIAL</legend> 
+                                                                                    <div class="col-lg-6 col-xs-12">    
+                                                                                            <div class="form-group" title="Fecha emisión">
+                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Fecha emisión">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-xs-12">    
+                                                                                            <div class="form-group" title="Fecha validez">
+                                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Fecha validez">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-12 col-xs-12">    
+                                                                                            <div class="form-group">
+                                                                                                <label for="exampleInputEmail1">Condición de pago</label>
+                                                                                                <select class="form-control" required>
+                                                                                                    <option disabled selected="selected">----Seleccionar----</option>
+                                                                                                    <option>Contado</option>
+                                                                                                    <option>Crédito</option>
+                                                                                                </select>
+                                                                                            </div>
+                                                                                    </div>
+                                                                            </fieldset>
+                                                                    </div>                                                                        
+                                                                    <!-- --------------------------------------------------------------------------------------------------- -->
+
+                                                                    <div class="col-lg-12 col-xs-12">
+                                                                            <table class="table table-bordered">
+                                                                                    <thead class="theadcentrado">
+                                                                                            <tr>
+                                                                                                <th style="width: 110px !important;">Item</th>
+                                                                                                <th>Producto</th>
+                                                                                                <th style="width: 75px !important;">Cant.</th>
+                                                                                                <th>Unidad</th>
+                                                                                                <th>Valor Unitario</th>
+                                                                                                <th>Valor TOTAL</th>
+                                                                                                <th></th>
+                                                                                            </tr>
+                                                                                    </thead>
+                                                                                    <tbody class="theadcentrado_negro">
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                        <div class="form-group" style="width: 110px !important;margin: 0px  !important">
+                                                                                                            <input type="email" class="form-control form-control-lg" id="producto_service" style="width: 110px !important;margin: 0px  !important">
+                                                                                                        </div>
+                                                                                                </td>
+                                                                                                <td>
+                                                                                                        <div class="form-group" style="margin: 0px  !important">
+                                                                                                            <input type="email" class="form-control form-control-lg" id="producto_service" style="margin: 0px  !important">
+                                                                                                        </div>
+                                                                                                </td>
+                                                                                                <td>
+                                                                                                        <div class="form-group" style="width: 75px !important;margin: 0px  !important">
+                                                                                                            <input type="email" class="form-control form-control-lg" id="producto_service" style="width: 75px !important;margin: 0px  !important">
+                                                                                                        </div>
+                                                                                                </td>
+                                                                                                <td></td>
+                                                                                                <td></td>
+                                                                                                <td></td>
+                                                                                                <td  style="width: 75px !important;">
+                                                                                                        <button type="button" class="btn btn-success"  style="width: 75px !important;">Añadir <i class="fa fa-plus-square" aria-hidden="true"></i></button>    
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                    </tbody>
+                                                                            </table>
+                                                                    </div>
+                                                                    <!-- --------------------------------------------------------------------------------------------------- -->
+                                                                    <div class="col-lg-12 col-xs-12" style="text-align: right;">
+                                                                                    <table  style="display: inline-block !important;">
+                                                                                                    <tr>
+                                                                                                                    <td style=" background: #5e5e5e !important;color: white !important;width: 110px !important;border: 1px solid #b5b5b5 !important;padding: 5px 15px !important;">
+                                                                                                                    Sub total:
+                                                                                                                    </td> 
+                                                                                                                    <td style="  width: 70px !important;border: 1px solid #b5b5b5 !important;padding: 5px 15px !important; ">
+                                                                                                                    155
+                                                                                                                    </td>     
+                                                                                                    </tr>
+                                                                                                    <tr>
+                                                                                                                    <td style=" background: #5e5e5e !important;color: white !important;width: 110px !important;border: 1px solid #b5b5b5 !important;padding: 5px 15px !important;">
+                                                                                                                    IGV 18%:
+                                                                                                                    </td> 
+                                                                                                                    <td style="  width: 70px !important;border: 1px solid #b5b5b5 !important;padding: 5px 15px !important; ">
+                                                                                                                    155
+                                                                                                                    </td>     
+                                                                                                    </tr>
+                                                                                                    <tr>
+                                                                                                                    <td style="background: #5e5e5e !important;color: white !important; width: 110px !important;border: 1px solid #b5b5b5 !important;padding: 5px 15px !important;">
+                                                                                                                    TOTAL:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                    </td> 
+                                                                                                                    <td style="  width: 70px !important;border: 1px solid #b5b5b5 !important;padding: 5px 15px !important; ">
+                                                                                                                    155
+                                                                                                                    </td>     
+                                                                                                    </tr>
+                                                                                    </table>                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </form>
+                                                    </div>
+                                            </div>
+                                            <div class="box-footer">
+                                                    <button type="submit" class="btn btn-primary pull-right">Registrar cotización</button>
+                                            </div>
+                                    </form>
+                            </div>
+                    </div>
+            </div>
+    </section>
+</div>
+
+
+
+

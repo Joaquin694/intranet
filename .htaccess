@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+Options -Indexes
+RewriteEngine On
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?ruta=$1
+</IfModule>

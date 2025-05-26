@@ -1,0 +1,32 @@
+<!-- EJEMPLO -->
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="JsBarcode.all.min.js"></script>
+
+   <!-- API ABAD -->
+   <script src="../api_abad.js"></script>
+   <link rel="stylesheet" href="../api_abad.css">
+</head>
+<body>
+    <canvas id="1" onclick="download_image('1')" data-toggle="tooltip" data-placement="bottom" title="Clic a la imágen para descargar"></canvas>
+    <canvas id="2" onclick="download_image('2')" data-toggle="tooltip" data-placement="bottom" title="Clic a la imágen para descargar"></canvas>
+    <canvas id="3" onclick="download_image('3')" data-toggle="tooltip" data-placement="bottom" title="Clic a la imágen para descargar"></canvas>
+    
+    
+    
+    <script>
+    	$(document).ready(function(){
+	         $("#1").JsBarcode("INPPARES 899",{displayValue:true,fontSize:20});
+             $("#2").JsBarcode("INPPARES 897",{displayValue:true,fontSize:20});
+             $("#3").JsBarcode("INPPARES 898",{displayValue:true,fontSize:20});
+		});    
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "Aplicativo Web MOALI",
+  "short_name": "APP MOALI",
+  "theme_color": "#1d2340",
+  "background_color": "#1d2340",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  
+  "start_url": "/",
+  "splash_pages": null
+}
+

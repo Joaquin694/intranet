@@ -1,0 +1,442 @@
+[15-Jun-2019 21:26:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/ch7f8ueyfh95/public_html/moali/extensiones/tcpdf/tcpdf.php on line 16542
+[28-Aug-2019 08:52:33 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[28-Aug-2019 08:52:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[28-Aug-2019 20:43:16 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 12:25:46 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 14:25:43 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 19:30:12 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 4
+[30-Aug-2019 19:30:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 4
+[30-Aug-2019 14:33:05 America/Lima] PHP Warning:  require_once(../../extenciones/bpmReporteria/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 585
+[30-Aug-2019 14:33:05 America/Lima] PHP Fatal error:  require_once(): Failed opening required '../../extenciones/bpmReporteria/dompdf/dompdf_config.inc.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 585
+[30-Aug-2019 14:34:00 America/Lima] PHP Warning:  require_once(../../.../extenciones/bpmReporteria/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 585
+[30-Aug-2019 14:34:00 America/Lima] PHP Fatal error:  require_once(): Failed opening required '../../.../extenciones/bpmReporteria/dompdf/dompdf_config.inc.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 585
+[30-Aug-2019 14:34:44 America/Lima] PHP Warning:  require_once(../../.../extensiones/bpmReporteria/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 585
+[30-Aug-2019 14:34:44 America/Lima] PHP Fatal error:  require_once(): Failed opening required '../../.../extensiones/bpmReporteria/dompdf/dompdf_config.inc.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 585
+[30-Aug-2019 14:35:52 America/Lima] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/autoload.inc.php on line 83
+[30-Aug-2019 14:35:52 America/Lima] PHP Fatal error:  Uncaught DOMPDF_Exception: No block-level parent found.  Not good. in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/inline_positioner.cls.php:37
+Stack trace:
+#0 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(700): Inline_Positioner->position()
+#1 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/text_frame_reflower.cls.php(330): Frame_Decorator->position()
+#2 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(711): Text_Frame_Reflower->reflow(NULL)
+#3 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/page_frame_reflower.cls.php(123): Frame_Decorator->reflow()
+#4 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(711): Page_Frame_Reflower->reflow(NULL)
+#5 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/dompdf.cls.php(973): Frame_Decorator->reflow()
+#6 /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.p in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/inline_positioner.cls.php on line 37
+[30-Aug-2019 14:36:02 America/Lima] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/autoload.inc.php on line 83
+[30-Aug-2019 14:36:02 America/Lima] PHP Fatal error:  Uncaught DOMPDF_Exception: No block-level parent found.  Not good. in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/inline_positioner.cls.php:37
+Stack trace:
+#0 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(700): Inline_Positioner->position()
+#1 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/text_frame_reflower.cls.php(330): Frame_Decorator->position()
+#2 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(711): Text_Frame_Reflower->reflow(NULL)
+#3 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/page_frame_reflower.cls.php(123): Frame_Decorator->reflow()
+#4 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(711): Page_Frame_Reflower->reflow(NULL)
+#5 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/dompdf.cls.php(973): Frame_Decorator->reflow()
+#6 /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.p in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/inline_positioner.cls.php on line 37
+[30-Aug-2019 14:38:56 America/Lima] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/autoload.inc.php on line 83
+[30-Aug-2019 14:38:56 America/Lima] PHP Fatal error:  Uncaught DOMPDF_Exception: An input file is required (i.e. input_file _GET variable). in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/dompdf.php:203
+Stack trace:
+#0 /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php(585): require_once()
+#1 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/dompdf.php on line 203
+[30-Aug-2019 14:39:54 America/Lima] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/autoload.inc.php on line 83
+[30-Aug-2019 14:39:54 America/Lima] PHP Fatal error:  Uncaught DOMPDF_Exception: No block-level parent found.  Not good. in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/inline_positioner.cls.php:37
+Stack trace:
+#0 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(700): Inline_Positioner->position()
+#1 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/text_frame_reflower.cls.php(330): Frame_Decorator->position()
+#2 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(711): Text_Frame_Reflower->reflow(NULL)
+#3 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/page_frame_reflower.cls.php(123): Frame_Decorator->reflow()
+#4 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/frame_decorator.cls.php(711): Page_Frame_Reflower->reflow(NULL)
+#5 /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/dompdf.cls.php(973): Frame_Decorator->reflow()
+#6 /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.p in /home/moaliwhm/public_html/extensiones/bpmReporteria/dompdf/include/inline_positioner.cls.php on line 37
+[30-Aug-2019 15:00:23 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:01:04 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 107
+[30-Aug-2019 15:01:04 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 108
+[30-Aug-2019 15:01:04 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:02:29 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 107
+[30-Aug-2019 15:02:29 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 108
+[30-Aug-2019 15:02:29 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 20:05:00 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 255
+[30-Aug-2019 15:06:47 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 107
+[30-Aug-2019 15:06:47 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 108
+[30-Aug-2019 15:06:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:07:18 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 107
+[30-Aug-2019 15:07:18 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 108
+[30-Aug-2019 15:07:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:09:06 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 107
+[30-Aug-2019 15:09:06 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 108
+[30-Aug-2019 15:09:06 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 20:10:25 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 259
+[30-Aug-2019 20:11:18 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 259
+[30-Aug-2019 15:12:59 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 107
+[30-Aug-2019 15:12:59 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 108
+[30-Aug-2019 15:12:59 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:15:20 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:17:00 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:17:44 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:18:40 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:19:13 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 20:19:59 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 257
+[30-Aug-2019 15:21:43 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:26:40 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:27:52 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:28:20 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 15:28:20 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 18188
+[30-Aug-2019 15:29:38 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:30:21 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:31:59 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:32:39 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:34:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:34:35 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:35:03 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:37:09 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:38:24 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:39:07 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:39:51 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:40:14 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:40:40 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:43:03 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 20:43:43 UTC] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 243
+[30-Aug-2019 20:43:49 UTC] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 243
+[30-Aug-2019 20:45:11 UTC] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 243
+[30-Aug-2019 20:45:34 UTC] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 243
+[30-Aug-2019 15:46:04 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:46:43 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:46:56 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:47:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:48:58 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:49:40 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:50:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:50:39 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:52:05 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method TCPDF::SetAutdor() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 109
+[30-Aug-2019 15:52:50 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 20:56:11 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 259
+[30-Aug-2019 20:56:48 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 258
+[30-Aug-2019 15:57:08 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:58:03 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 15:59:44 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:00:14 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:00:42 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:01:14 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:01:43 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:03:31 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:05:07 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 21:06:17 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 261
+[30-Aug-2019 21:06:46 UTC] PHP Parse error:  syntax error, unexpected 'Certificación' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 261
+[30-Aug-2019 16:07:22 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:07:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:08:48 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:11:59 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:12:58 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:14:38 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:16:32 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:17:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:17:40 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:17:57 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:18:32 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:19:26 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:20:15 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:20:28 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:21:21 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:23:29 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:23:29 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 18188
+[30-Aug-2019 16:23:46 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:23:46 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 18188
+[30-Aug-2019 16:24:37 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 21:28:28 UTC] PHP Parse error:  syntax error, unexpected 'total' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 452
+[30-Aug-2019 21:32:45 UTC] PHP Parse error:  syntax error, unexpected 'pk_sab' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 455
+[30-Aug-2019 21:33:23 UTC] PHP Parse error:  syntax error, unexpected 'pk_sab' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 455
+[30-Aug-2019 16:34:16 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:34:46 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 21:35:49 UTC] PHP Parse error:  syntax error, unexpected 'pk_sab' (T_STRING) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 450
+[30-Aug-2019 16:38:08 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:38:08 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 16:38:08 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 16:38:08 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 16:41:43 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 627
+[30-Aug-2019 16:54:23 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 16:54:23 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 627
+[30-Aug-2019 16:54:55 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 16:54:55 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 627
+[30-Aug-2019 16:55:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 16:55:56 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 627
+[30-Aug-2019 16:57:06 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 16:57:06 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 16:58:15 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 627
+[30-Aug-2019 16:58:15 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 16:58:15 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 16:58:15 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 16:58:15 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 17:10:41 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 626
+[30-Aug-2019 17:10:41 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:10:41 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 17:10:41 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 17:10:41 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 17:14:36 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 538
+[30-Aug-2019 17:14:36 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:14:36 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 17:14:36 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 17:14:36 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 17:15:01 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 626
+[30-Aug-2019 17:15:01 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:15:02 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 17:15:02 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 17:15:02 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 17:18:34 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:18:59 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:19:26 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:20:31 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:21:09 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:22:46 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 626
+[30-Aug-2019 17:22:46 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:22:47 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 17:22:47 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 17:22:47 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 17:23:20 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:24:13 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:24:50 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 620
+[30-Aug-2019 17:24:50 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:24:50 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 17:24:50 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 17:24:50 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 17:25:30 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:26:49 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 22:27:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 622
+[30-Aug-2019 17:28:02 America/Lima] PHP Warning:  A non-numeric value encountered in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 622
+[30-Aug-2019 17:28:03 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:28:03 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19477
+[30-Aug-2019 17:28:03 America/Lima] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19506
+[30-Aug-2019 17:28:03 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 19509
+[30-Aug-2019 17:28:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:36:53 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:37:37 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:38:01 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:38:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:39:42 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:40:11 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:41:25 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:41:55 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:42:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:43:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:48:30 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:50:40 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:51:44 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:52:36 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:53:30 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:54:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:54:56 America/Lima] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16918
+[30-Aug-2019 17:59:35 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:02:04 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:03:14 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:03:14 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:04:53 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:05:31 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:05:54 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:06:10 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:06:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:07:46 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:08:23 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:08:48 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:10:48 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:11:51 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:12:11 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:13:46 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:14:30 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:15:12 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:15:53 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:17:25 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:19:10 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:20:03 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:20:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:21:35 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:23:16 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:23:41 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:24:48 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:25:36 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:26:37 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:27:46 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:28:55 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:29:27 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:31:07 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 18:59:59 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 19:00:54 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 19:02:40 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 19:03:58 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 19:05:26 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Aug-2019 19:15:32 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[31-Aug-2019 14:08:47 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 25
+[31-Aug-2019 14:08:47 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 431
+[31-Aug-2019 14:08:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[31-Aug-2019 14:10:50 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 25
+[31-Aug-2019 14:10:50 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 431
+[31-Aug-2019 14:10:50 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[31-Aug-2019 14:11:00 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 25
+[31-Aug-2019 14:11:00 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 431
+[31-Aug-2019 14:11:00 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[31-Aug-2019 14:11:17 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 25
+[31-Aug-2019 14:11:17 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 431
+[31-Aug-2019 14:11:17 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[31-Aug-2019 14:11:28 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 25
+[31-Aug-2019 14:11:28 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 431
+[31-Aug-2019 14:11:28 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[31-Aug-2019 14:11:31 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 25
+[31-Aug-2019 14:11:31 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/imprimirbpm.php on line 431
+[31-Aug-2019 14:11:31 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[31-Aug-2019 19:47:35 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Sep-2019 06:52:51 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Sep-2019 06:58:20 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Sep-2019 07:05:21 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[05-Sep-2019 18:44:35 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 09:06:58 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 09:14:30 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 09:26:58 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 09:29:24 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 09:30:15 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 09:33:26 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 09:34:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[14-Sep-2019 13:41:02 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[29-Sep-2019 18:43:40 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[29-Sep-2019 23:01:15 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[29-Sep-2019 23:01:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[29-Sep-2019 23:43:59 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[29-Sep-2019 23:46:12 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[29-Sep-2019 23:52:38 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[29-Sep-2019 23:53:03 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[30-Sep-2019 17:07:39 America/Lima] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/reporte.php on line 30
+[30-Sep-2019 17:07:39 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 13:58:13 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 14:10:34 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:12:42 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:27:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:28:30 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:28:35 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:29:22 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:29:43 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:30:18 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:30:51 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:31:44 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:32:19 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:32:39 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:33:05 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:33:34 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:34:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:35:25 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:36:34 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:36:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:37:15 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:38:01 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:38:20 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:38:34 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:38:54 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:39:05 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:39:23 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:39:59 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:40:14 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:40:33 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:40:56 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:41:00 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:41:16 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:42:02 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[01-Oct-2019 22:42:48 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[23-Oct-2019 00:11:20 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[21-Dec-2019 19:05:55 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[26-Dec-2019 23:37:11 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[07-Feb-2020 20:39:37 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[10-Feb-2020 23:24:09 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[24-Feb-2020 11:19:49 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[05-Mar-2020 21:08:44 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[05-Mar-2020 21:16:37 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[05-Mar-2020 21:17:20 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[05-Mar-2020 21:57:41 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[05-Mar-2020 21:58:35 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[24-Mar-2020 02:34:11 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[19-Apr-2020 23:26:49 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[27-Dec-2022 21:05:22 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[27-Dec-2022 21:05:22 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/factura.php on line 317
+[28-Dec-2022 01:18:50 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[28-Dec-2022 01:18:50 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/factura.php on line 317
+[10-Dec-2023 07:24:24 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[10-Dec-2023 07:24:24 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/factura.php on line 317
+[12-Jan-2024 22:03:02 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[12-Jan-2024 22:03:02 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/factura.php on line 317
+[16-Jan-2024 13:47:17 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[16-Jan-2024 13:47:17 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/factura.php on line 317
+[08-Feb-2024 08:24:47 America/Lima] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/moaliwhm/public_html/extensiones/tcpdf/tcpdf.php on line 16542
+[08-Feb-2024 08:24:47 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/moaliwhm/public_html/extensiones/tcpdf/pdf/factura.php on line 317
